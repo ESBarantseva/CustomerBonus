@@ -3,11 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         int balance = 100; //остаток на счете
-        int add = 300; // пополнили счет
+        int add = 1200; // пополнили счет
         int bonus = 0;
         int newBalance = 0;
-        if (add >= 1000) {
-            bonus =  add / 100;
+        if (add > 1000) {
+            bonus = add / 100;
             newBalance = balance + add + bonus;
             System.out.println("Вам начислено " + bonus + " бонусных рублей.");
             System.out.println("На вашем счете " + newBalance + " рублей.");
